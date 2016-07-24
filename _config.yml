@@ -1,8 +1,9 @@
 excerpt_separator: ""
-pygments: true
+pygments: false
+highlighter: rouge
 markdown: kramdown
 url: http://achyudhk.github.io
 title: Achyudh's Blog
-tagline: Flipping bits since 2008
-description: Flipping bits since 2008
+tagline: Flipping bits since 2008!
+description: Flipping bits since 2008!
 paginate: 5
