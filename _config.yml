@@ -1,9 +1,24 @@
-excerpt_separator: ""
-pygments: false
-highlighter: rouge
-markdown: kramdown
-url: http://achyudhk.github.io
+# Site settings
 title: Achyudh's Blog
-tagline: Flipping bits since 2008!
-description: Flipping bits since 2008!
+header-img: img/home-bg.jpg
+email: achyudhk@gmail.com
+description: "Flipping bits since 2008!"
+baseurl: ""
+url: "http://achyudhk.github.io/"
+twitter_username: akrzillionaire
+github_username:  achyudhk
+facebook_username:  achyudhk
+email_username:  achyudhk@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
 paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
