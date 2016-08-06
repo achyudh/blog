@@ -2,7 +2,7 @@
 layout:     post
 title:      Console.WriteLine ("Hello, world!");
 subtitle:   "Yet another attempt at blogging..."
-date:       2016-07-24 02:00:00
+date:       2016-08-05 02:00:00
 author:     "Achyudh Ram"
 header-img: "img/post-bg-00.jpg"
 ---
