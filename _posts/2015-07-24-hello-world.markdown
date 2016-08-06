@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Console.WriteLine("Hello, world!");
+title:      Console.WriteLine ("Hello, world!");
 subtitle:   "Yet another attempt at blogging..."
 date:       2016-07-24 02:00:00
 author:     "Achyudh Ram"
