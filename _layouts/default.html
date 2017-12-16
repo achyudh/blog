@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ site.baseurl }}/">
+          <h2 class="nav-title">{{ site.title }}</h2>
+        </a>
+    </div>
+  </nav>
 
-    {% include nav.html %}
+    <main>
+      {{ content }}
+    </main>
 
-    {{ content }}
-
-    {% include footer.html %}
-
-
-</body>
-
+    <footer>
+      <a href="http://achyudh.xyz">
+        <img src="/public/lambda.png" height=48px>
+      </a>   
+      <p class="copyright">
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+      </p>
+    </footer>
+  </body>
 </html>

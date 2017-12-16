@@ -1,24 +1,31 @@
-# Site settings
-title: Achyudh's Blog
-header-img: img/home-bg.jpg
-email: achyudhk@gmail.com
-description: "Flipping bits since 2008!"
-baseurl: ""
-url: "http://blog.achyudh.xyz"
-twitter_username: akrzillionaire
-github_username:  achyudhk
-facebook_username:  achyudhk
-email_username:  achyudhk@gmail.com
+# Permalinks
+permalink:      /:year-:month-:day/:title
 
-# Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
-# google_tracking_id:
+# Setup
+title:          Achyudh's Blog
+paginate:       5
+baseurl:        ""
+url:            "https://blog.achyudh.xyz"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
 
 # Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+markdown:       kramdown
 
-gems: [jekyll-paginate, jekyll-feed]
+# About
+author:
+  name:         Achyudh Ram
+  url:          http://achyudh.xyz
+  email:        achyudhk@live.com
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/chesterhow/tale
+
+# Gems
+plugins:
+  - jekyll-paginate
