@@ -24,6 +24,19 @@ layout: default
 
 </div>
 
+<div class="recent-post">
+  <h2 style="text-align: center;">Recent posts</h2>
+  {% for post in site.posts limit:3 %}
+  {% if post.url != page.url %}
+      <div class="project-post">
+        <h4><a href="{{ post.git }}">{{ post.title }}</a></h4>
+        {{ post.content | truncatewords: 35 | strip_html }}
+      </div>
+      {% endif %}      
+  {% endfor %}
+  <br>     
+</div>
+
 <div class="pagination">
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>

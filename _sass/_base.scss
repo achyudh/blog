@@ -64,3 +64,24 @@ img {
 td {
   vertical-align: top;
 }
+
+.project-post {
+  h3, p {
+    font-size: 18px;
+  }
+  p {
+    color: #767676;
+  }
+}
+
+.references {
+  p {
+    font-size: 14px;    
+    color: #767676;
+  }
+}
+
+.recent-post {
+  border-top: .5px solid $grey-2;
+  border-bottom: .5px solid $grey-2;
+}
