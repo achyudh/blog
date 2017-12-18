@@ -29,7 +29,7 @@ layout: default
   {% for post in site.posts limit:3 %}
   {% if post.url != page.url %}
       <div class="project-post">
-        <h4><a href="{{ post.git }}">{{ post.title }}</a></h4>
+        <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
         {{ post.content | truncatewords: 35 | strip_html }}
       </div>
       {% endif %}      
