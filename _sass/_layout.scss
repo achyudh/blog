@@ -100,3 +100,28 @@ footer {
     margin: 0 auto;
   }
 }
+
+.social {
+  ul {
+    @include bp-small {
+      text-align: center;
+    }
+    @include bp-medium {
+      text-align: center;
+    }
+  }
+  li {
+    margin-bottom: 0.75em;
+    @include bp-small {
+      display: inline-block;
+      padding-right: 1em;
+    }
+    @include bp-medium {
+      display: inline-block;
+      padding-right: 1em;
+    }
+  }
+  i {
+    font-size: 28px;
+  }
+}
