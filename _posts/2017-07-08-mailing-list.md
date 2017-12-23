@@ -14,7 +14,9 @@ I frequently ran out of computational resources due to the time and space comple
 
 Even though I will be leaving for TU Delft to work on my thesis in August, I will remain the sole maintainer of the Mailing-List-Network-Analyzer code base. I am currently helping with the on-boarding of sophomore and junior students to this project. I believe that the future of this project lies in the hands of these students and I might have to provide them with a sense of direction in which to proceed. I will make it a priority to review each contribution made to this project and provide constructive feedback. 
 
-Since I have no idea how to conclude this banter, here is a cool set of outdated graphs I generated a long time ago for a publication draft of this study.
+I am extending the analysis on mailing lists to Slack Teams, with the [Slack Community Analysis Tool (SCAT)](https://github.com/rohangoel96/Slack-Community-Analysis-Tool). The goal is to conduct analysis on Slack logs over three broad categories: channel, network and users. A publicly accessible API and a webapp with visualisations to ease the understanding of the results is just icing on the cake. I am planning to submit this for as a student project for the International Conference on Software Engineering (ICSE) along with Rohan Goel, an undergraduate student. Even though SCAT is still in the design stage, it should be done by Q2 2018. 
+
+Because I have no idea how to conclude this banter, here is a cool set of outdated graphs I generated a long time ago for a publication draft of this study.
 
 ![Infomap Vertex Clustering](https://raw.githubusercontent.com/achyudhk/Mailing-List-Network-Analyzer/development/data/sakai-devel/plots/conversation_chars.png)
 
