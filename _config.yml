@@ -4,8 +4,8 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          Achyudh's Blog
 paginate:       5
-baseurl:        ""
-url:            "https://blog.achyudh.xyz"
+baseurl:        blog
+url:            http://achyudh.github.io
 
 # Assets
 sass:
@@ -18,13 +18,13 @@ markdown:       kramdown
 # About
 author:
   name:         Achyudh Ram
-  url:          http://achyudh.xyz
+  url:          http://achyudh.github.io
   email:        achyudhk@live.com
 
 # Custom vars
 version:        3.4.1
 github:
-  repo:         https://github.com/chesterhow/tale
+  repo:         https://github.com/achyudh/blog
 
 # Gems
 plugins:
