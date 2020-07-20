@@ -5,7 +5,7 @@ permalink:      /:year-:month-:day/:title
 title:          Achyudh's Blog
 paginate:       5
 baseurl:        ""
-url:            "https://blog.achyudh.xyz"
+url:            http://achyudh.github.io/blog
 
 # Assets
 sass:
