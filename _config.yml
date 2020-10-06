@@ -4,8 +4,8 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          Achyudh's Blog
 paginate:       5
-baseurl:        blog
-url:            http://achyudh.github.io
+baseurl:        
+url:            http://achyudh.github.io/blog
 
 # Assets
 sass:
